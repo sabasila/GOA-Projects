@@ -1,0 +1,1 @@
+print('am kodvarsis linkebs agar edzebs ')

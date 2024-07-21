@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>სარეგისტრაციო ფორმა</h2>
+    <form>
+        <label for="name">სახელი</label>
+        <input type="text" id="name" name="name"  required><br><br>
+
+        <label for="lastname">გვარი</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label>სქესი:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">კაცი</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">ქალი</label><br><br>
+
+        <label for="country">ქვეყანა:</label>
+        <select id="country" name="country">
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="uk">გაერთიანებული სამეფო</option>
+            <option value="germany">გერმანია</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
